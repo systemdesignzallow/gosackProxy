@@ -1,0 +1,241 @@
+#container-mid {
+  display: flex;
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+#form-service {
+  margin-top: 10% !important;
+  padding-left: 9vw;
+  border-top: 1px solid #ccc;
+}
+#form-service > div {
+  margin-top: 5%;
+}
+.style__formOuterContainer___12WXq {
+  padding-bottom: 5px;
+  width: 90%;
+  max-width: unset !important;
+}
+.style__formInnerContainer___1H01l {
+  max-width: unset !important;
+  max-height: unset !important;
+}
+.style__formInputName___3uGEC,
+.style__formInputTel___2WxfW,
+.style__formInputEmail___209ly,
+.style__formInputInterest___13Bc2 {
+  width: 80% !important;
+}
+.style__formInnerLowerContainer___16-5P {
+  width: unset !important;
+}
+.style__similarHomesHeader__1rbsb {
+  margin-left: 17% !important;
+  margin-bottom: 10px;
+}
+.styles__containerTop___3ChHD > div > h5 {
+  display: flex;
+  align-items: center;
+}
+#red-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: red;
+}
+.styles__containerTop___3ChHD {
+  flex-direction: column-reverse !important;
+}
+#map-results {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding-top: 122px;
+  width: 96%;
+}
+#mainContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(60, 60, 60, 0.5);
+  z-index: 100000;
+  display: none;
+}
+.bigBOX {
+  margin: auto;
+  display: flex;
+  position: relative;
+}
+.xOut {
+  position: absolute;
+  z-index: 1000;
+  left: 90%;
+}
+.styles__containerMain___lRtqU {
+  margin: 0 !important;
+  width: 100% !important;
+}
+.styles__containerCalculator___rIxcP {
+  margin-bottom: 10px;
+}
+#styles__seeMore___3XRTO {
+  margin-left: 15% !important;
+}
+.style__similarHomeSlide__33UUN {
+  width: 100% !important;
+  height: 150px !important;
+  border-bottom: 1px solid black;
+}
+.style__simHomesDetails__QZAoh {
+  margin-top: -15px !important;
+}
+.style__simHomesPrice__2XHON {
+  margin-top: -13px !important;
+}
+.style__simHomesLine2__1ePR- {
+  position: relative;
+  top: -20px;
+}
+.style__simHomesAddress__Wo2Yn {
+  margin-bottom: 14px !important;
+}
+.style__simHomesLine3__1PT_l {
+  position: relative;
+  top: -7px;
+}
+.style__similarHomesSeeAll__1uP5n {
+  margin-left: 6% !important;
+  position: relative;
+  left: 25%;
+}
+.styles__containerFactsItems___3mAzb {
+  height: unset !important;
+}
+.xOut > svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  fill: black;
+  stroke: black;
+}
+.style__similarHomesSlidesContainer__lQ0TP {
+  flex-direction: column;
+}
+#popContainer {
+  height: 100%;
+  background-color: white;
+  opacity: 1;
+  width: 100%;
+  z-index: 100;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: -5px;
+}
+#gendesc {
+  margin-left: 5px;
+}
+#results {
+  width: 100%;
+}
+.googleMapContainer {
+  width: 100% !important;
+  height: 90vw !important;
+}
+.style__results-more-filters-dd__3tk6K {
+  left: 41.5% !important;
+  position: absolute;
+}
+.style__results-buttons__1Ca8W {
+  width: 100% !important;
+}
+.style__homeOptionContainer___3dhcI {
+  position: absolute;
+  margin-top: 50px;
+}
+.style__results-container__142a4 {
+  max-height: 85vh;
+  overflow-y: unset !important;
+}
+.styles__containerFactsItems___3mAzb {
+  justify-content: space-evenly;
+}
+.styles__containerFactsItems___3mAzb {
+  align-items: center;
+}
+.styles__fact___3CsWB {
+  width: 28% !important;
+}
+.style__results-buttons-row__2xr3d {
+  position: relative !important;
+}
+.style__superNavAgentModal___SDwvO,
+.style__superNavLoansModal___2Dfr0,
+.style__superNavSellModal___1wRXN,
+.style__superNavRentModal___1fwB8,
+.style__superNavBuyModal___qCIeR {
+  margin-left: -12px;
+  margin-top: -11px;
+}
+.containerMid {
+  display: flex;
+  flex-direction: column;
+}
+html {
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif !important;
+  font-size: 93.75%;
+}
+.style__inputStyle___4TfXb {
+  width: 100% !important;
+  margin-top: 0px !important;
+}
+.style__imageStyle___12YBS {
+  position: relative !important;
+  margin-left: 0px !important;
+  margin-top: 4px !important;
+}
+.style__inputContainer___yP0cQ {
+  width: 99% !important;
+  border: 1px solid #006aff;
+}
+.styles__containerTop___3ChHD > div:last-child {
+  border-bottom: 1px solid #ccc;
+}
+#header {
+  position: fixed;
+  z-index: 10000000;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+.style__mainStyle___1Ux2C {
+  width: 100vw !important;
+  height: unset !important;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 4px -2px #c3c3c3;
+}
+.style__bedContainer___1xs7a,
+.style__homeOptionContainer___3dhcI,
+.style__pricesContainer___1nBu1 {
+  right: unset !important;
+}
+.style__results-home-slide__3CmsV {
+  width: 96% !important;
+  height: 25% !important;
+}
+img#style__superNavLogo___3b-67 {
+  left: 36% !important;
+}
+.style__results-home-cover__3gTKa {
+  width: 100% !important;
+  height: 100% !important;
+}
+.style__simHomesSlideArrow__1Bhoy {
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+}

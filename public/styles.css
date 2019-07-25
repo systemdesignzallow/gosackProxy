@@ -1,0 +1,161 @@
+#container-mid {
+  display: flex;
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+#form-service {
+  margin-left: 5%;
+}
+.style__formOuterContainer___12WXq {
+  padding-bottom: 5px;
+}
+.styles__containerTop___3ChHD > div > h5 {
+  display: flex;
+  align-items: center;
+}
+#red-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: red;
+}
+.similar-homes-container > h1 {
+  margin-left: 25%;
+  margin-bottom: 10px;
+}
+.styles__containerTop___3ChHD {
+  justify-content: space-between;
+}
+.styles__containerMain___lRtqU {
+  margin: 0 !important;
+}
+#map-results {
+  display: flex;
+}
+#mainContainer {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  background: rgba(60, 60, 60, 0.5);
+  z-index: 100000;
+  display: none;
+}
+.bigBOX {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+}
+.xOut > svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+#popContainer {
+  height: 100vh;
+  background-color: white;
+  opacity: 1;
+  width: 100%;
+  z-index: 10000000000;
+  overflow-y: scroll;
+  margin-top: -5px;
+}
+#gendesc {
+  margin-left: 5px;
+}
+#results {
+  width: 45vw;
+  padding-bottom: 131px;
+}
+body {
+  overflow: hidden;
+}
+.style__endMainContainer___Ql7_y {
+  height: 100% !important;
+}
+.style__savedHomesContainer___3ekpi {
+  width: 150px !important;
+}
+.googleMapContainer {
+  width: 63vw !important;
+}
+.style__results-more-filters-dd__3tk6K {
+  left: 67.5% !important;
+}
+.style__homeOptionContainer___3dhcI {
+  position: absolute;
+  margin-top: 50px;
+}
+.style__results-container__142a4 {
+  max-height: 85vh;
+}
+.style__superNavAgentModal___SDwvO,
+.style__superNavLoansModal___2Dfr0,
+.style__superNavSellModal___1wRXN,
+.style__superNavRentModal___1fwB8,
+.style__superNavBuyModal___qCIeR {
+  margin-left: -12px;
+  margin-top: -11px;
+}
+.style__bedContainer___1xs7a,
+.style__homeOptionContainer___3dhcI,
+.style__pricesContainer___1nBu1 {
+  border-top: 1px solid #ccc;
+  margin-left: 2px;
+}
+.style__priceInput___17e3P:hover {
+  border: 1px solid #006aff;
+  padding: 2px;
+  padding-right: 1px;
+}
+.style__priceInput___17e3P:focus {
+  outline: 2px solid #006aff !important;
+}
+.style__firstLowPrice___3H4YK,
+.style__lowPrice___3Vlge {
+  padding: 5px;
+}
+.style__pFirstLow___13SoC {
+  margin-left: 0px !important;
+}
+.style__filterContainer___2e5MG > div {
+  margin-right: 30px;
+}
+.style__firstHighPrice___2iuep,
+.style__highPrice___1Qql3 {
+  padding: 5px;
+  position: relative;
+  left: -14px;
+}
+.style__pHigh___2giwJ {
+  margin-right: 0px !important;
+}
+.style__priceInputTrack___kyrNF {
+  padding-bottom: 10px;
+}
+.style__imageStyle___12YBS {
+  margin-left: 190px !important;
+}
+.style__inputStyle___4TfXb {
+  width: 210px !important;
+}
+
+img.style__imageStyle___12YBS:hover {
+  cursor: pointer;
+}
+.containerMid {
+  display: flex;
+}
+.style__results-buttons-row__2xr3d {
+  position: relative !important;
+}
+html {
+  font-family: "Open Sans", Gotham, gotham, Tahoma, Geneva, sans-serif !important;
+  font-size: 93.75%;
+}
