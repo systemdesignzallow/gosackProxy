@@ -1,11 +1,11 @@
 config:
-  target: 'http://localhost:3000'
-  processor: './benchmarkingHelpers.js'
+  target: "http://localhost:3000"
+  processor: "./benchmarkingHelpers.js"
   phases:
     - duration: 60
-      arrivalRate: 1000
+      arrivalRate: 1500
 scenarios:
   - flow:
-      - function: 'getRandomInt'
-      - put:
-          url: '/houses/{{ number }}'
+      - function: "getRandomInt"
+      - get:
+          url: "/houses/{{ number }}"
