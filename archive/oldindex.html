@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta
+    name="Description"
+    content="Find your new home in the Phoenix Metro Area using Zallo!"
+  />
+  <title>Zallo</title>
+  <link
+    rel="icon"
+    href="https://s3-us-west-1.amazonaws.com/zallosimilarhomes/favicon.ico"
+  />
+
+  <link
+    rel="stylesheet"
+    media="screen and (min-width: 901px)"
+    type="text/css"
+    href="styles.css"
+  />
+  <link
+    rel="stylesheet"
+    media="screen and (max-width: 900px)"
+    type="text/css"
+    href="mobile.css"
+  />
+</head>
+<body>
+  <div id="header">
+    <div id="super-top-nav-bar"></div>
+    <div id="search-bar"></div>
+  </div>
+
+  <div id="map-results">
+    <div id="map"></div>
+    <div id="results"></div>
+  </div>
+  <div id="mainContainer" class="mainContainer">
+    <div class="bigBOX">
+      <div id="popContainer">
+        <div id="photos"></div>
+        <div class="containerMid">
+          <div id="gendesc"></div>
+          <div id="form-service"></div>
+        </div>
+        <div id="similar-homes"></div>
+      </div>
+      <div class="xOut">
+        X
+      </div>
+    </div>
+  </div>
+  <script
+    async
+    defer
+    src="https://s3-us-west-1.amazonaws.com/map-bucket-zallo/app-bundle.gz.js"
+  ></script>
+  <script
+    async
+    defer
+    src="https://s3-us-west-2.amazonaws.com/agents-zallo/Zallo+Team+Files/super-top-nav-bar/bundleGZ.js"
+  ></script>
+  <script
+    async
+    defer
+    src="https://s3-us-west-1.amazonaws.com/zallosimilarhomes/results-bundle-gz.js"
+  ></script>
+  <script
+    async
+    defer
+    src="https://s3.us-east-2.amazonaws.com/fecappfiles/bundleSearchGZ.js"
+  ></script>
+  <script>
+    document.querySelector(".xOut").innerHTML =
+      window.innerWidth < 900
+        ? `<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.0 0.0 495.0997375328084 430.5826771653543" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10"><clipPath id="p.0"><path d="m0 0l495.09973 0l0 430.58267l-495.09973 0l0 -430.58267z" clip-rule="nonzero"/></clipPath><g clip-path="url(#p.0)"><path fill="#000000" fill-opacity="0.0" d="m0 0l495.09973 0l0 430.58267l-495.09973 0z" fill-rule="evenodd"/><g filter="url(#shadowFilter-p.1)"><use xlink:href="#p.1" transform="matrix(1.0 0.0 0.0 1.0 0.0 2.0)"/></g><defs><filter id="shadowFilter-p.1" filterUnits="userSpaceOnUse"><feGaussianBlur in="SourceAlpha" stdDeviation="2.0" result="blur"/><feComponentTransfer in="blur" color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0" intercept="0.0"/><feFuncG type="linear" slope="0" intercept="0.0"/><feFuncB type="linear" slope="0" intercept="0.0"/><feFuncA type="linear" slope="0.5" intercept="0"/></feComponentTransfer></filter></defs><g id="p.1"><path fill="#000000" fill-opacity="0.0" d="m24.919947 418.50412l445.25983 -406.4252" fill-rule="evenodd"/><path stroke="#000000" stroke-width="65.0" stroke-linejoin="round" stroke-linecap="butt" d="m24.919947 418.50412l445.25983 -406.4252" fill-rule="evenodd"/></g><g filter="url(#shadowFilter-p.2)"><use xlink:href="#p.2" transform="matrix(1.0 0.0 0.0 1.0 0.0 2.0)"/></g><defs><filter id="shadowFilter-p.2" filterUnits="userSpaceOnUse"><feGaussianBlur in="SourceAlpha" stdDeviation="2.0" result="blur"/><feComponentTransfer in="blur" color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0" intercept="0.0"/><feFuncG type="linear" slope="0" intercept="0.0"/><feFuncB type="linear" slope="0" intercept="0.0"/><feFuncA type="linear" slope="0.5" intercept="0"/></feComponentTransfer></filter></defs><g id="p.2"><path fill="#000000" fill-opacity="0.0" d="m26.320248 10.771653l442.4567 409.03937" fill-rule="evenodd"/><path stroke="#000000" stroke-width="65.0" stroke-linejoin="round" stroke-linecap="butt" d="m26.320248 10.771653l442.4567 409.03937" fill-rule="evenodd"/></g></g></svg>`
+        : `<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.0 0.0 495.0997375328084 430.5826771653543" fill="none" stroke="none" stroke-linecap="square" stroke-miterlimit="10"><clipPath id="p.0"><path d="m0 0l495.09973 0l0 430.58267l-495.09973 0l0 -430.58267z" clip-rule="nonzero"/></clipPath><g clip-path="url(#p.0)"><path fill="#ffffff" fill-opacity="0.0" d="m0 0l495.09973 0l0 430.58267l-495.09973 0z" fill-rule="evenodd"/><g filter="url(#shadowFilter-p.1)"><use xlink:href="#p.1" transform="matrix(1.0 0.0 0.0 1.0 0.0 2.0)"/></g><defs><filter id="shadowFilter-p.1" filterUnits="userSpaceOnUse"><feGaussianBlur in="SourceAlpha" stdDeviation="2.0" result="blur"/><feComponentTransfer in="blur" color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0" intercept="0.0"/><feFuncG type="linear" slope="0" intercept="0.0"/><feFuncB type="linear" slope="0" intercept="0.0"/><feFuncA type="linear" slope="0.5" intercept="0"/></feComponentTransfer></filter></defs><g id="p.1"><path fill="#ffffff" fill-opacity="0.0" d="m24.919947 418.50412l445.25983 -406.4252" fill-rule="evenodd"/><path stroke="#ffffff" stroke-width="65.0" stroke-linejoin="round" stroke-linecap="butt" d="m24.919947 418.50412l445.25983 -406.4252" fill-rule="evenodd"/></g><g filter="url(#shadowFilter-p.2)"><use xlink:href="#p.2" transform="matrix(1.0 0.0 0.0 1.0 0.0 2.0)"/></g><defs><filter id="shadowFilter-p.2" filterUnits="userSpaceOnUse"><feGaussianBlur in="SourceAlpha" stdDeviation="2.0" result="blur"/><feComponentTransfer in="blur" color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0" intercept="0.0"/><feFuncG type="linear" slope="0" intercept="0.0"/><feFuncB type="linear" slope="0" intercept="0.0"/><feFuncA type="linear" slope="0.5" intercept="0"/></feComponentTransfer></filter></defs><g id="p.2"><path fill="#ffffff" fill-opacity="0.0" d="m26.320248 10.771653l442.4567 409.03937" fill-rule="evenodd"/><path stroke="#ffffff" stroke-width="65.0" stroke-linejoin="round" stroke-linecap="butt" d="m26.320248 10.771653l442.4567 409.03937" fill-rule="evenodd"/></g></g></svg>`;
+    window.addEventListener("house_view", e => {
+      let mainContainer = document.getElementById("mainContainer");
+      mainContainer.style.display = e.detail.houseView ? "unset" : "none";
+      if (
+        document.getElementById("genDesc-script") === null &&
+        document.getElementById("similarHomes-script") === null &&
+        document.getElementById("similarHomes-script") === null &&
+        document.getElementById("formService-script") === null
+      ) {
+        let genDesc = document.createElement("script");
+        genDesc.async = true;
+        genDesc.defer = true;
+        genDesc.id = "genDesc-script";
+        genDesc.src = "http://localhost:6001/app-bundle.js";
+        let similarHomes = document.createElement("script");
+        similarHomes.async = true;
+        similarHomes.defer = true;
+        similarHomes.id = "similarHomes-script";
+        similarHomes.src =
+          "https://s3-us-west-1.amazonaws.com/zallosimilarhomes/bundle-gz.js";
+        let photos = document.createElement("script");
+        photos.async = true;
+        photos.defer = true;
+        photos.id = "photos-script";
+        photos.src = "https://s3.us-east-2.amazonaws.com/fecappfiles/bundle.js";
+        let formService = document.createElement("script");
+        formService.async = true;
+        formService.defer = true;
+        formService.id = "formService-script";
+        formService.src =
+          "https://s3-us-west-2.amazonaws.com/agents-zallo/Zallo+Team+Files/form-service/bundleGZ.js";
+        document.body.appendChild(genDesc);
+        document.body.appendChild(similarHomes);
+        document.body.appendChild(photos);
+        document.body.appendChild(formService);
+      }
+      document.getElementById("header").style.display = "none";
+      document.getElementById("results").style.display = "none";
+    });
+    document.querySelector(".xOut").addEventListener("click", e => {
+      let mainContainer = document.getElementById("mainContainer");
+      mainContainer.style.display = "none";
+      document.getElementById("header").style.display = "";
+      document.getElementById("results").style.display = "";
+    });
+    document
+      .querySelector("#mainContainer")
+      .addEventListener("click", function(e) {
+        if (e.target !== this) return;
+        let mainContainer = document.getElementById("mainContainer");
+        mainContainer.style.display = "none";
+        document.getElementById("header").style.display = "";
+        document.getElementById("results").style.display = "";
+      });
+  </script>
+</body>
