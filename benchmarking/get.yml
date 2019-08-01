@@ -3,7 +3,7 @@ config:
   processor: "./benchmarkingHelpers.js"
   phases:
     - duration: 60
-      arrivalRate: 1500
+      arrivalRate: 250
 scenarios:
   - flow:
       - function: "getRandomInt"
