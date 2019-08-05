@@ -1,5 +1,5 @@
 config:
-  target: "http://localhost:3000"
+  target: "http://ec2-34-219-58-35.us-west-2.compute.amazonaws.com"
   processor: "./benchmarkingHelpers.js"
   phases:
     - duration: 60
