@@ -8,6 +8,8 @@ sudo yum install git -y
 cd ~
 git clone https://github.com/systemdesignzallow/gosackProxy
 cd gosackProxy
+
+# FIX ME WHEN MERGED!!
 git checkout docker
 
 echo 'LOCAL_SERVICE_SERVER_PORT=6003' >> .env
