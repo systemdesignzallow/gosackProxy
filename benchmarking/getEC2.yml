@@ -1,9 +1,9 @@
 config:
-  target: "http://ec2-34-219-58-35.us-west-2.compute.amazonaws.com"
+  target: "http://ec2-34-220-229-2.us-west-2.compute.amazonaws.com"
   processor: "./benchmarkingHelpers.js"
   phases:
     - duration: 60
-      arrivalRate: 250
+      arrivalRate: 100
 scenarios:
   - flow:
       - function: "getRandomInt"
