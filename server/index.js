@@ -1,11 +1,11 @@
 const express = require("express");
 const getHouse = require("./requests/getHouse");
 const app = express();
-const serviceUrl = "http://localhost:6001";
 const layout = require("../templates/layout");
 const body = require("../templates/body");
 const scripts = require("../templates/scripts");
 const PORT = 6003;
+const serviceUrl = "http://ec2-54-245-184-130.us-west-2.compute.amazonaws.com";
 
 app.use(express.static("./public"));
 
